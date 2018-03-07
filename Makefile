@@ -1,5 +1,5 @@
 .PHONY: all image package dist clean
-
+PWD=$(shell pwd)
 all: package
 
 image:
